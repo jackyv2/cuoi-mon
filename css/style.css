@@ -1,0 +1,147 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+#wrapper{
+	width: 900px;
+	height: 2200px;
+	margin: 0 auto;
+}
+#header{
+	width: 900px;
+	height: 400px;
+	background: url("../images/HEADER.jpg");
+}
+.logo{
+	width: 450px;
+	height: 100px;
+	float: left;
+}
+.logo img{
+	margin-left: 20px;
+}
+.top-bar{
+	width: 450px;
+	height: 100px;
+	float: right;
+}
+.top-bar ul li{
+	list-style-type: none;
+	display: inline;
+	margin: 10px;
+}
+.top-bar ul li a{
+	text-decoration: none;
+	color: #c484b0;
+	transition-duration: 0.5s;
+}
+.top-bar ul li:hover a{
+	color: white;
+	
+}
+.banner{
+	width:900px;
+	height:300px;
+}
+.banner h1{
+	float:right;
+	color: #7d7d79;
+	margin-right: 70px;
+	font-style: italic
+}
+
+#content{
+	width:900px;
+	height: 1500px;
+	background: white;
+}
+.feature{
+	width: 900px;
+	height: 300px;
+	background: white;
+}
+.feature h1{
+	padding-top: 50px;
+	text-align: center;
+	font-style:italic;
+}
+.feature p{
+	text-align: center;
+	font-style: italic;
+	margin-left: 100px;
+	margin-right: 100px;
+	color: #808285;
+}
+.article{
+	width: 900px;
+	height: 600px;
+}
+.article a{
+	text-decoration: none;
+	color: black;
+	transition-duration: 0.5s;
+}
+.article a:hover{
+	color: grey;
+}
+#left{
+	width: 425px;
+	height: 600px;
+	float: left;
+	margin-left:25px;
+}
+#right{
+	width: 425px;
+	height: 600px;
+	float: right;
+	margin-right:20px;
+}
+.contact-us{
+	width: 900px;
+	height: 300px;
+	background: #EFDEE1;
+}
+.contact-us h1{
+	padding-top: 50px;
+	text-align: center;
+}
+.feedback{
+	width: 900px;
+	height: 300px;
+	background-color: #f7f5f3;
+	margin: auto;
+}
+.feedback h2{
+	padding-top:100px;
+	text-align: center;
+}
+.feedback p{
+	text-align: center;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.feedback h3{
+	text-align: center;
+	font-weight: 800;
+}
+#footer{
+	width:900px;
+	height:300px;
+	padding-top: 100px;
+}
+#footer p{
+	font-weight: lighter;
+}
+.address{
+	width: 450px;
+	height: 300px;
+	float: left;
+}
+.info{
+	width: 450px;
+	height: 300px;
+	float: right;
+}
